@@ -1,0 +1,14 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: .5fr 3fr .5fr;
+  grid-gap: 1rem;
+}

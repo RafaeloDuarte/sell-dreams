@@ -1,0 +1,21 @@
+
+<div class="container">
+    <div class="row">
+        <h1>Nossos Corretores</h1>
+        <div class="col s12 m13" style="display: inline-flex;">
+            <div class="card" *ngFor="let corretor of corretores">
+                <div class="card-image">
+                    <img [src]="corretor.photoUrl">
+                </div>
+                <div class="card-content">
+                    <span class="card-title">{{corretor.name}}</span>
+                    <p> {{corretor.description}} </p>
+                </div>
+                <div class="card-action">
+                    <a href="#" (click)="selecionarCorretor(corretor)">Portifólio</a>
+                    <a href="#">Contato</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

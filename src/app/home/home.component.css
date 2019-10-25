@@ -1,0 +1,15 @@
+.bannerCentralSetaDireita{
+    grid-column: 3 / 4;
+    position:absolute; 
+    margin-top: 4.5%;
+    right: 1%;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.bannerCentralSetaEsquerda{
+    grid-column: 3 / 4;
+    position:absolute; 
+    margin-top: 4.5%;
+    left:0%;
+    grid-template-columns: repeat(20, 1fr);;
+}
